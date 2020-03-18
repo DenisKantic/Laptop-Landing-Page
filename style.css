@@ -26,6 +26,7 @@ header{
     font-size: 18px;
 }
 
+/* _____Left side of navigation menu ( logo icon and text "Three Dots" ) _____*/
 .logo-container{
     flex:1;
 }
@@ -37,6 +38,8 @@ header{
     font-size: 16px;
     color: #2f2f33;
 }
+
+/*_______________________*/
 
 nav{
     flex:2;
@@ -58,3 +61,68 @@ nav{
 }
 
 /*________________________________________________________________________*/
+
+
+
+/* __________________MAIN SECTION_______________________*/
+
+.laptop-image{
+
+    height: 60vh;
+    flex:1;
+    margin-right: 40px;
+}
+
+.main-container{
+
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-btn-area{
+
+    flex:2;
+}
+
+.text-btn-area h1{
+
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.text-btn-area p{
+
+    width: 89%;
+    font-size: 22px;
+}
+
+.btn-area{
+
+    padding: 50px 0 0 0;
+}
+
+.left-btn{
+
+    height: 58px;
+    width: 140px;
+    outline: none;
+    cursor: pointer;
+    background:transparent;
+    border:3px solid pink;
+    font-size: 18px;
+}
+
+.cart-btn{
+
+    height: 58px;
+    width: 140px;
+    outline: none;
+    cursor: pointer;
+    background:pink;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
