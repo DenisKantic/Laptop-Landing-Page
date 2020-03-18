@@ -5,3 +5,46 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+
+
+/*__________________ HEADER ( NAVIGATION PROPERTIES ) __________________*/
+
+header{
+
+    display: flex; /* flex property*/
+    width: 90%; /* width of the page */
+    margin: auto; /*centering this width */
+    height: 10vh;
+    align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart-area{
+
+    display: flex;
+}
+
+.logo-container{
+    flex:1;
+}
+
+nav{
+    flex:2;
+}
+
+.cart-area{
+    flex:1;
+    justify-content: flex-end;
+}
+
+.nav-links{
+   justify-content: space-around;
+   list-style-type: none;
+}
+
+.nav-element{
+    text-decoration: none;
+}
+
+/*________________________________________________________________________*/
